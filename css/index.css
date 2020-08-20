@@ -1,0 +1,182 @@
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/-e-bg.png) no-repeat;
+}
+
+#header {
+    margin: 0 auto;
+    text-align: center;
+    width: 100vw;
+    height: 12vh;
+    padding: 3vh 0 2vh 0;
+}
+#header .box{
+    width: 98vw;
+    height: 12vh;
+    background:url(../images/header.png) no-repeat;
+    background-size:100% 100%;
+}
+#header .box p{
+    display: inline-block;
+    width: 98vw;
+    padding-top:3vh ;
+    color: #00FFFC;
+    font-weight: 700;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    letter-spacing: 19px;
+}
+#header .box span{
+    display: block;
+    line-height: 4vh;
+    color: #00FFFC;
+    letter-spacing: 2px;
+    font-family: Adobe Heiti Std R, Adobe Heiti Std R-R;
+}
+#content {
+    width: 98vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1vw;
+}
+
+#footer {
+    width: 100vw;
+    height: 38vh;
+    padding-top: 2vh;
+}
+
+#left {
+    width: 32vw;
+    background: url(../images/bg_modular.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#center {
+    width: 32vw;
+    background-size: 100% 100%;
+}
+
+#right {
+    width: 32vw;
+    background: url(../images/bg_modular.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#order {
+    width: 98vw;
+    height: 38.6vh;
+    background: url(../images/3.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left: 1vw;
+}
+
+.top,
+.bottom {
+    height: 19.5vh;
+    background: url(../images/2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.top {
+    margin-bottom: 1vh;
+}
+
+#center .title {
+    text-align: center;
+    color: #81DDFF;
+    line-height: 3.8vh;
+    padding-top: 4.4vh;
+    font-weight: bold;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    letter-spacing: 0.1vw;
+}
+
+#center #totalnum {
+    color: #FCC645;
+    font-weight: 900;
+    font-family: Arial Black, Arial Black-Black;
+}
+
+#center #ordernum {
+    color: #00FFFC;
+    font-weight: 900;
+    font-family: Arial Black, Arial Black-Black;
+}
+
+#order .tip {
+    padding-left: 1.6vw;
+    line-height: 5vh;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    font-weight: 400;
+    color: #00FFFC;
+}
+
+.trend {
+    background: url(../images/-e-icon_arrow.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 1vw;
+    height: 2.3vh;
+    margin-left: 0.8vw;
+    margin-top: 4vh;
+}
+
+.goods_name {
+    width: 55vw;
+}
+
+table {
+    width: 100%;
+    overflow: hidden;
+}
+
+table thead tr td {
+    color: #27ABFF;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    padding-left: 1.6vw;
+    line-height: 4vh;
+}
+
+table tbody tr {
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    color: #81DDFF;
+    line-height: 4.3vh;
+}
+
+table tbody tr td {
+    padding-left: 1.6vw;
+}
+
+table tbody tr:nth-child(2n-1) {
+    background: #152F5B;
+}
+
+.valScrollAmt-box {
+    display: flex;
+    overflow: hidden;
+    height: 8vh;
+    justify-content: center;
+}
+
+.digit-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 8vh;
+}
+
+.sign-box {
+    line-height: 8vh
+}
